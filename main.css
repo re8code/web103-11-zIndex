@@ -1,0 +1,26 @@
+.a {width: 300px; height: 200px;
+    background-color: pink;}
+.b {width: 250px; height: 160px;
+    background-color: orange; float: left;}
+.c {width: 200px; height: 120px;
+    background-color: skyblue;
+    position: absolute;}
+.d {width: 150px; height: 80px;
+    position: absolute;
+    background-color: coral; z-index: 1;}
+
+
+
+
+
+
+/* for codepen.io */
+body {
+  width: 500px; height: 1000px;
+  background-color: #fff;
+  margin: 8px auto;
+  position: relative;
+}
+html {
+  background-color: #ddd;
+}
