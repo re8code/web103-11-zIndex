@@ -1,18 +1,19 @@
 .a {
   width: 200px; height: 120px;
   background-color: pink;
-  float: left; z-index: 1;
+  position: relative; top: 80px;
 }
 .b {
   width: 250px; height: 160px;
   background-color: orange;
-  float: left; z-index: 2;
+  position: absolute; top: 40px;
 }
 .c {
   width: 300px; height: 200px;
   background-color: skyblue;
-  z-index: 3;
+  position: fixed; top: 8px;
 }
+
 
 
 
