@@ -1,13 +1,18 @@
-.a {width: 300px; height: 200px;
-    background-color: pink;}
-.b {width: 250px; height: 160px;
-    background-color: orange; float: left;}
-.c {width: 200px; height: 120px;
-    background-color: skyblue;
-    position: absolute;}
-.d {width: 150px; height: 80px;
-    position: absolute;
-    background-color: coral; z-index: 1;}
+.a {
+  width: 200px; height: 120px;
+  background-color: pink;
+  float: left; z-index: 1;
+}
+.b {
+  width: 250px; height: 160px;
+  background-color: orange;
+  float: left; z-index: 2;
+}
+.c {
+  width: 300px; height: 200px;
+  background-color: skyblue;
+  z-index: 3;
+}
 
 
 
