@@ -1,17 +1,17 @@
 .a {
   width: 200px; height: 120px;
   background-color: pink;
-  position: relative; top: 80px;
+  position: relative; top: 80px; z-index: 3;
 }
 .b {
   width: 250px; height: 160px;
   background-color: orange;
-  position: absolute; top: 40px;
+  position: absolute; top: 40px; z-index: 2;
 }
 .c {
   width: 300px; height: 200px;
   background-color: skyblue;
-  position: fixed; top: 8px;
+  position: fixed; top: 8px; z-index: 1;
 }
 
 
