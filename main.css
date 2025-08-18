@@ -13,7 +13,7 @@
   background-color: skyblue;
   position: fixed; top: 8px; z-index: 1;
 }
-.parent {position: relative;}
+.parent {position: relative; z-index: 0;}
 
 
 
